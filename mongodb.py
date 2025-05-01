@@ -9,5 +9,6 @@ try:
     db = MongoClient.taskz_db
 
     task_collection = db.tasks
+    user_collection = db.users
 except Exception as e:
     print(e)
